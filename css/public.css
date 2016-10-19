@@ -1,0 +1,324 @@
+@font-face {
+    font-family: 张海山锐线体简;
+    src:url('张海山锐线体简.woff');
+}
+
+
+
+body {
+	background-color: #f2f2f2;
+    font-family: "Lato","Raleway","张海山锐线体简","微软雅黑","黑体","宋体",sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+	
+}
+
+.clear{ clear:both;}
+.centered {
+    text-align: center;
+}
+
+#header{
+	height:60px;
+	background-color:black;
+	margin:0 auto;
+	margin-top:0px;
+	padding-top:0px;
+	width:100%;
+	height:60px;
+	position:fixed;
+	
+}
+
+.nav{
+	margin-left:550px;
+	margin-top:0px;
+	padding:0px;
+	
+	
+
+}
+
+.nav ul{
+	list-style:none;
+	margin-top:0px;
+	padding:0px;
+}
+.nav  ul li{
+	display:inline-block;
+	margin-top:0px;
+	padding:0px;
+}
+
+.pic .img2{display: none;}
+.pic:hover .img1{display: none;}
+.pic:hover .img2{display: block;}
+
+
+#name{
+	background: url(../image/name.jpg) no-repeat center top;
+	margin-top: 0px;
+	margin-bottom:0px;
+	padding-top:140px;
+	padding-bottom:20px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;	
+}
+
+
+}
+
+.name_name{
+	float:right;
+
+}
+.name_name h1{
+	color:white;
+	font-size: 80px;
+}
+.name_name h3{
+	color:white;
+	font-size: 20px;
+}
+
+
+
+#content{
+	margin:0px;
+	padding:0px;
+}
+
+
+.about{
+    background: #2c3e50;
+	padding-top: 40px;
+	padding-bottom: 90px;
+	color: white;
+	height:120px;
+	
+}
+
+.about .about_left{
+	float:left;
+	padding-left:200px;
+}
+.about .about_center{
+	width:530px;
+	float:left;
+	padding-left:120px;
+	margin-top:0;
+	padding-right:10px;
+	
+}
+.about .about_right .about_img{
+	float:right;
+	padding-right:100px;
+	
+
+}
+.about .about_right .about_img img{
+
+	padding-right:160px;
+}
+
+.about .about_right .download{
+	padding-top:5px;
+}
+
+.about .about_left  h5 {
+	color: white;
+	font-size: 16px;
+}
+
+.about .about_center p{
+	color: white;
+	font-size: 14px;
+	
+}
+.about .about_right  p {
+	color: white;
+	font-size: 10px;
+	padding-right: 15px;
+
+}
+
+#education{
+	margin:auto;
+	width:940px;
+	
+	
+}
+
+.border{
+	margin:auto;
+	width:1150px;
+	border-bottom:solid 1px #ccc;
+	
+	
+}
+.col1{
+	float:left;
+	margin:0px;
+	
+	
+	
+}
+
+.col{
+	margin-top:50px;
+	padding:0px;
+	margin:auto;
+	width:940px;
+	
+}
+.col .col2{
+	margin-left:180px;
+	
+	
+}
+
+.col .col4{
+	margin-left:180px;
+	
+	
+}
+.col .col6{
+	margin-left:180px;
+	
+	
+}
+
+
+
+.col .col3{
+	float:right;
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	padding:5px;
+	width:200px;
+}
+
+.col .col33{
+	float:right;
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+	padding:5px;
+	width:200px;
+}
+
+
+
+.col .col3 imp{
+	color:white;
+	background-color:#2c3e50;
+	font-size: 12px;
+	padding:8px;
+
+}
+
+
+
+	
+.col .col5{
+	float:right;
+	margin:0px;
+	font-size: 12px;
+	padding-right:90px;
+}
+
+.col_p{
+	width:580px;
+	font-size: 15px;
+	color:#95a5a6;
+}
+
+.col .col8{
+	float:right;
+	margin:0px;
+	padding:0px;
+	font-size: 12px;
+	width:200px;
+}
+
+
+#work{
+	margin:auto;
+	width:940px;
+	
+	
+}
+
+
+#awards{
+	margin:auto;
+	width:940px;
+	
+	
+}
+
+#portfolio{
+	margin:auto;
+	width:940px;
+	
+}
+.img-responsive{
+	width:500px;
+
+}
+
+.img-responsive2{
+	width:500px;
+    margin-bottom:30px;
+}
+
+#footer{
+	background-color:#2f2f2f;
+	color:white;
+}
+.col0{
+	float:left;
+	margin:0px;
+	
+	
+	
+}
+.col0 h5{
+	color:white;
+}
+.col .col10{
+	float:right;
+	margin:0px;
+	padding:0px;
+
+	padding:5px;
+	width:200px;
+}
+.col_haha{
+	margin-top:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
